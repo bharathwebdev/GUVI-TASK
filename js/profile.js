@@ -3,7 +3,8 @@
 // location.href= "login.html";
 // }
 
-// console.log(JSON.parse(localStorage.getItem("Auth")))
+// console.log(localStorage.getItem("Auth"))
+
 let res = JSON.parse(localStorage.getItem("Auth"));
 document.getElementById("porifile-email").innerText = res.email;
 

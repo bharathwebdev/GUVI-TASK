@@ -9,6 +9,12 @@
     border:1px solid #CCC
   }
 
+  .reg{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
   button {
     padding:10px
   }
@@ -28,3 +34,14 @@
   #form-switch:checked~#login-form {
     display:none
   }   */
+  .reg{
+  padding: 2rem;
+  border:0.6px solid grey;
+  border-radius: 10px;
+    margin: 0 auto;
+  }
+  .hacc{
+    margin-top: 10px;
+
+  /* background-color: red; */
+  }

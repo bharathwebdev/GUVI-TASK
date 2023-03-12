@@ -31,7 +31,6 @@
     <!-- custom scrpt -->
   </head>
   <body>
-
     <!-- <input type="checkbox" id="form-switch" /> -->
     <!-- <form id='login-form' action="" method='post'>
       <input type="text" placeholder="Username" required>
@@ -41,88 +40,108 @@
     </form> -->
     <!-- form-floating -->
 
-
-  
-
-    <form id="register-form  fm" >
-      <div id = "alert">
-
-      <div class="alert alert-success" id="result" role="alert">
-
-      </div>
-    </div>
+    <div class="reg">
       
-      <div  class=" mt-2">
+      <form id="register-form">
+        <center>
+          <img
+          class="mb-4 w-50"
+          src="https://www.guvi.in/build/images/women-guvi-logo-200w.a0d0dc87adf63965726aec7e98d4612a.webp"
+          alt=""
+          width="72"
+          height="57"
+        />
+          <!-- <h1 class="font-monospace">Register </h1> -->
+
+        </center>
+        <div id="alert">
+          <div class="alert alert-success" id="result" role="alert"></div>
+        </div>
+
+        <div class="mt-2">
           <!-- <label for="">user name</label> -->
-        <input
-          type="text"
-          class="form-control"
-          id="name"
-          name="name"
-          placeholder="name"
-          required
-        />
-      </div>
-      <div  class=" mt-2">
-        <!-- <label for="">user name</label> -->
-      <input
-        type="text"
-        class="form-control"
-        id="uname"
-        name="uname"
-        placeholder="User name"
-        required
-      />
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="name"
+            required
+          />
+        </div>
+        <div class="mt-2">
+          <!-- <label for="">user name</label> -->
+          <input
+            type="text"
+            class="form-control"
+            id="uname"
+            name="uname"
+            placeholder="User name"
+            required
+          />
+        </div>
+        <div class="mt-2">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="name@example.com"
+            required
+          />
+          <!-- <label for="floatingInput">Email</label> -->
+        </div>
+        <div class="mt-2">
+          <input
+            type="password"
+            class="form-control"
+            id="pass"
+            name="pass"
+            placeholder="password"
+            required
+            minlength="6"
+          />
+          <!-- <label for="">password </label> -->
+        </div>
+        <div class="mt-2">
+          <input
+            type="password"
+            class="form-control"
+            id="cpass"
+            name="cpass"
+            placeholder="Re Password"
+            required
+            minlength="6"
+          />
+          <!-- <label for="floatingInput">Re Password</label> -->
+        </div>
+        <button
+          class=" btnr w-100  btn-lg mt-2"
+          id="Register"
+          name="Register"
+          type="submit"
+        >
+          Register
+        </button>
+        <center  class="hacc">
+          <a class=" mb-3 text-muted m-lr-auto" href="/login.html">
+            Already have an account ?
+          </a>
+        </center>
+      </form>
     </div>
-      <div class=" mt-2">
-        <input
-          type="email"
-          class="form-control"
-          id="email"
-          name="email"
-          placeholder="name@example.com"
-          required
-        />
-        <!-- <label for="floatingInput">Email</label> -->
-      </div>
-      <div class=" mt-2">
-        <input
-          type="password"
-          class="form-control"
-          id="pass"
-          name="pass"
-          placeholder="password"
-          required
-          minlength="6"
-        />
-        <!-- <label for="">password </label> -->
-      </div>
-      <div class=" mt-2">
-        <input
-          type="password"
-          class="form-control"
-          id="cpass"
-          name="cpass"
-          placeholder="Re Password"
-          required
-          minlength="6"
-        />
-        <!-- <label for="floatingInput">Re Password</label> -->
-      </div>
-      <button class="w-100 btn btn-lg btn-primary mt-2" id="Register" name="Register" type="submit">
-        Register
-      </button>
-      <a class=" mb-3 text-muted m-lr-auto" href="/login.html">
-        Already have an account ?
-     </a>
-
-    </form> 
-  </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
     <!-- jqury validation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+      integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script type="text/javascript" src="js/register.js"></script>
-    
   </body>
 </html>

@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
   // validating form inputs ;
   $("#login-form").validate();
@@ -19,8 +17,8 @@ $(document).ready(function () {
           if (response != "Login Failed check your email and password !") {
             // let responseJSON = JSON.parse(response);
             // let {email,password} = responseJSON;
-            localStorage.setItem("Auth", response)
-
+            localStorage.setItem("Auth", response);
+            //  console.log(localStorage.getItem("Auth"));
             window.location = "profile.html";
           } else {
             $("#alert").show();
@@ -32,5 +30,3 @@ $(document).ready(function () {
     return true;
   });
 });
-
-
